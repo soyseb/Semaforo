@@ -66,7 +66,7 @@ void main(void)
 	        *p2_out &= ~0x03;   //RGB, Verde y Rojo en bajo
 	        *p2_out |= 0x01;    //RGB, Rojo en alto
 	        for(i=RETARDO; i>0 ;i--);
-	        cont_cambio == 1;   //Retornamos a 0... entrara al primer if de verde por la condición +1, previamente programada
+	      //  cont_cambio == 1;   //Retornamos a 0... entrara al primer if de verde por la condición +1, previamente programada
 	        }
 	    }
 	}
